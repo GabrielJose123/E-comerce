@@ -1,10 +1,14 @@
 import headerBack from '../assets/headerBack.jpg';
-import ImgDiv from './ImgDiv';
 
 export const Header = () => {
   return (
-    <header>
-      <ImgDiv src={headerBack} />
+    <header style={{
+      backgroundImage: `url(${headerBack})`,
+      backgroundSize: 'cover',
+      backgroundPosition: 'center',
+      backgroundRepeat: 'no-repeat'
+    }}>
+      {/* Conteúdo do header aqui se tiver */}
     </header>
   );
 };
