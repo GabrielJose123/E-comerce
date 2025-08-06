@@ -129,3 +129,62 @@ main {
   align-items: center;
   justify-content: center;
 }
+
+.HandManItems {
+  height: 100%;
+  width: 14.4%;
+  background-color: #f7f2f2ff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--font-color);
+  font-size:2.5vh;
+  font-weight: 400;
+  gap: 0.5rem;
+  display: flex;
+}
+
+.HandManItemsSec {
+  height: 100%;
+  width: 7%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.Categories {
+  width: 100%;
+  height: 50vh;
+  border: 0.3vh solid var(--borda);
+  margin-top: 3vw;
+  border-radius: 10px;
+}
+
+.title {
+  width: 100%;
+  height: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #362526;
+  gap: 59vw;
+}
+
+.AnimalIcons {
+  width: 100%;
+  height: 60%;
+  background-color: orange;
+}
+
+.ActiveUsers {
+  width: 100%;
+  height: 20%;
+  background-image: url('./assets/ActiveUsers.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

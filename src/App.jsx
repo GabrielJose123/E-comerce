@@ -8,10 +8,13 @@ function App() {
   return (
     <>
       <Header></Header>
-      <div style={{width:'100%',height:'20vh',backgroundColor:'#F8F8F8'}}>
+      <div style={{width:'100%',height:'20vh',backgroundColor:'#f7f2f2ff'}}>
         <Main></Main>
       </div>
-      
+
+      <div style={{width:'100%',height:'7.5vh',backgroundColor:'#dbdbdbff'}}>
+          
+      </div>
     </>
   )
 }
