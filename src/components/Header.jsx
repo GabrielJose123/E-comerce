@@ -8,7 +8,6 @@ export const Header = () => {
       backgroundPosition: 'center',
       backgroundRepeat: 'no-repeat'
     }}>
-      {/* Conteúdo do header aqui se tiver */}
     </header>
   );
 };

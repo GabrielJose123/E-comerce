@@ -1,5 +1,5 @@
-export const AnimalIcons = () => (
+export const AnimalIcons = ({ children }) => (
     <div className="AnimalIcons">
-
+        {children}
     </div>
-)
+);
